@@ -53,12 +53,9 @@ namespace Rextester
                     {
                         commonPrefix.Add(current);
                     }
-                    
-                    
                 }
                 comprefix=string.Join("", commonPrefix.ToArray());
                 return comprefix;
-            
             }
             catch(InvalidOperationException)
             {
